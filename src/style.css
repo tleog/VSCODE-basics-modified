@@ -1,0 +1,44 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*
+    Example CSS
+    - Set default body font
+    - Add some padding and background to the page
+    - Set a display font for titles
+*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 95vh;
+    padding: 10px;
+    background: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #865217;
+}
+
+.tom {
+    background-color: #865217;
+    padding: 20px;
+    border-radius: 120px;
+    margin: 10px; 
+}
+
+.myButton {
+    color: rgb(0, 0, 0); font-size: 19px; line-height: 19px; padding: 21px; margin:10px; border-radius: 120px; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; background-color:#865217;border: 2px solid #865217; }
+    .myButton:hover {
+    background: #832a01; }
+    .myButton:active {
+    background: #7e4b08;}
+
+.myButton2 {
+    color: rgb(0, 0, 0); font-size: 19px; line-height: 19px; padding: 21px; margin:10px; border-radius: 120px; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; background-color:#865217;border: 2px solid #865217; }
+     .myButton:hover {
+     background: #832a01; }
+     .myButton:active {
+     background: #7e4b08;}
